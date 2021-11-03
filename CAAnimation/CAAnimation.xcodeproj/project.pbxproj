@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32EDD341F6A663400B2F384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD331F6A663400B2F384 /* main.m */; };
+		F32EDD371F6A663400B2F384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD361F6A663400B2F384 /* AppDelegate.m */; };
+		F32EDD3A1F6A663400B2F384 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD391F6A663400B2F384 /* ViewController.m */; };
+		F32EDD3D1F6A663400B2F384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32EDD3B1F6A663400B2F384 /* Main.storyboard */; };
+		F32EDD3F1F6A663400B2F384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32EDD3E1F6A663400B2F384 /* Assets.xcassets */; };
+		F32EDD421F6A663400B2F384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32EDD401F6A663400B2F384 /* LaunchScreen.storyboard */; };
+		F32EDD4D1F6A663400B2F384 /* CAAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD4C1F6A663400B2F384 /* CAAnimationTests.m */; };
+		F32EDD581F6A663500B2F384 /* CAAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD571F6A663500B2F384 /* CAAnimationUITests.m */; };
+		F32EDD6C1F6A796900B2F384 /* UIViewOfCABasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD6B1F6A796900B2F384 /* UIViewOfCABasicAnimation.m */; };
+		F32EDD701F6A8C9800B2F384 /* UIViewOFBasicAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD6F1F6A8C9800B2F384 /* UIViewOFBasicAnimations.m */; };
+		F32EDD731F6A96F400B2F384 /* UIViewOfCASpringAniamtion.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD721F6A96F400B2F384 /* UIViewOfCASpringAniamtion.m */; };
+		F32EDD761F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD751F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.m */; };
+		F32EDD791F6AE7F500B2F384 /* UIViewOfCATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD781F6AE7F500B2F384 /* UIViewOfCATransition.m */; };
+		F32EDD7C1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F32EDD7B1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32EDD491F6A663400B2F384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32EDD271F6A663400B2F384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32EDD2E1F6A663400B2F384;
+			remoteInfo = CAAnimation;
+		};
+		F32EDD541F6A663400B2F384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32EDD271F6A663400B2F384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32EDD2E1F6A663400B2F384;
+			remoteInfo = CAAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32EDD2F1F6A663400B2F384 /* CAAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EDD331F6A663400B2F384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F32EDD351F6A663400B2F384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F32EDD361F6A663400B2F384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F32EDD381F6A663400B2F384 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F32EDD391F6A663400B2F384 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F32EDD3C1F6A663400B2F384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32EDD3E1F6A663400B2F384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32EDD411F6A663400B2F384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F32EDD431F6A663400B2F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32EDD481F6A663400B2F384 /* CAAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EDD4C1F6A663400B2F384 /* CAAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationTests.m; sourceTree = "<group>"; };
+		F32EDD4E1F6A663400B2F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32EDD531F6A663400B2F384 /* CAAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32EDD571F6A663500B2F384 /* CAAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationUITests.m; sourceTree = "<group>"; };
+		F32EDD591F6A663500B2F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32EDD6A1F6A796900B2F384 /* UIViewOfCABasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCABasicAnimation.h; sourceTree = "<group>"; };
+		F32EDD6B1F6A796900B2F384 /* UIViewOfCABasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCABasicAnimation.m; sourceTree = "<group>"; };
+		F32EDD6D1F6A797D00B2F384 /* LSAnimationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAnimationModel.h; sourceTree = "<group>"; };
+		F32EDD6E1F6A8C9800B2F384 /* UIViewOFBasicAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOFBasicAnimations.h; sourceTree = "<group>"; };
+		F32EDD6F1F6A8C9800B2F384 /* UIViewOFBasicAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOFBasicAnimations.m; sourceTree = "<group>"; };
+		F32EDD711F6A96F400B2F384 /* UIViewOfCASpringAniamtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCASpringAniamtion.h; sourceTree = "<group>"; };
+		F32EDD721F6A96F400B2F384 /* UIViewOfCASpringAniamtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCASpringAniamtion.m; sourceTree = "<group>"; };
+		F32EDD741F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAKeyframeAnimation.h; sourceTree = "<group>"; };
+		F32EDD751F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAKeyframeAnimation.m; sourceTree = "<group>"; };
+		F32EDD771F6AE7F500B2F384 /* UIViewOfCATransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCATransition.h; sourceTree = "<group>"; };
+		F32EDD781F6AE7F500B2F384 /* UIViewOfCATransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCATransition.m; sourceTree = "<group>"; };
+		F32EDD7A1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAAnimationGroup.h; sourceTree = "<group>"; };
+		F32EDD7B1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAAnimationGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32EDD2C1F6A663400B2F384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EDD451F6A663400B2F384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EDD501F6A663400B2F384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32EDD261F6A663400B2F384 = {
+			isa = PBXGroup;
+			children = (
+				F32EDD311F6A663400B2F384 /* CAAnimation */,
+				F32EDD4B1F6A663400B2F384 /* CAAnimationTests */,
+				F32EDD561F6A663500B2F384 /* CAAnimationUITests */,
+				F32EDD301F6A663400B2F384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32EDD301F6A663400B2F384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32EDD2F1F6A663400B2F384 /* CAAnimation.app */,
+				F32EDD481F6A663400B2F384 /* CAAnimationTests.xctest */,
+				F32EDD531F6A663400B2F384 /* CAAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32EDD311F6A663400B2F384 /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F32EDD651F6A665200B2F384 /* Animation */,
+				F32EDD351F6A663400B2F384 /* AppDelegate.h */,
+				F32EDD361F6A663400B2F384 /* AppDelegate.m */,
+				F32EDD381F6A663400B2F384 /* ViewController.h */,
+				F32EDD391F6A663400B2F384 /* ViewController.m */,
+				F32EDD3B1F6A663400B2F384 /* Main.storyboard */,
+				F32EDD3E1F6A663400B2F384 /* Assets.xcassets */,
+				F32EDD401F6A663400B2F384 /* LaunchScreen.storyboard */,
+				F32EDD431F6A663400B2F384 /* Info.plist */,
+				F32EDD321F6A663400B2F384 /* Supporting Files */,
+			);
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		F32EDD321F6A663400B2F384 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32EDD331F6A663400B2F384 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F32EDD4B1F6A663400B2F384 /* CAAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32EDD4C1F6A663400B2F384 /* CAAnimationTests.m */,
+				F32EDD4E1F6A663400B2F384 /* Info.plist */,
+			);
+			path = CAAnimationTests;
+			sourceTree = "<group>";
+		};
+		F32EDD561F6A663500B2F384 /* CAAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F32EDD571F6A663500B2F384 /* CAAnimationUITests.m */,
+				F32EDD591F6A663500B2F384 /* Info.plist */,
+			);
+			path = CAAnimationUITests;
+			sourceTree = "<group>";
+		};
+		F32EDD651F6A665200B2F384 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F32EDD6D1F6A797D00B2F384 /* LSAnimationModel.h */,
+				F32EDD6A1F6A796900B2F384 /* UIViewOfCABasicAnimation.h */,
+				F32EDD6B1F6A796900B2F384 /* UIViewOfCABasicAnimation.m */,
+				F32EDD6E1F6A8C9800B2F384 /* UIViewOFBasicAnimations.h */,
+				F32EDD6F1F6A8C9800B2F384 /* UIViewOFBasicAnimations.m */,
+				F32EDD711F6A96F400B2F384 /* UIViewOfCASpringAniamtion.h */,
+				F32EDD721F6A96F400B2F384 /* UIViewOfCASpringAniamtion.m */,
+				F32EDD741F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.h */,
+				F32EDD751F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.m */,
+				F32EDD771F6AE7F500B2F384 /* UIViewOfCATransition.h */,
+				F32EDD781F6AE7F500B2F384 /* UIViewOfCATransition.m */,
+				F32EDD7A1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.h */,
+				F32EDD7B1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32EDD2E1F6A663400B2F384 /* CAAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32EDD5C1F6A663500B2F384 /* Build configuration list for PBXNativeTarget "CAAnimation" */;
+			buildPhases = (
+				F32EDD2B1F6A663400B2F384 /* Sources */,
+				F32EDD2C1F6A663400B2F384 /* Frameworks */,
+				F32EDD2D1F6A663400B2F384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAAnimation;
+			productName = CAAnimation;
+			productReference = F32EDD2F1F6A663400B2F384 /* CAAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F32EDD471F6A663400B2F384 /* CAAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32EDD5F1F6A663500B2F384 /* Build configuration list for PBXNativeTarget "CAAnimationTests" */;
+			buildPhases = (
+				F32EDD441F6A663400B2F384 /* Sources */,
+				F32EDD451F6A663400B2F384 /* Frameworks */,
+				F32EDD461F6A663400B2F384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32EDD4A1F6A663400B2F384 /* PBXTargetDependency */,
+			);
+			name = CAAnimationTests;
+			productName = CAAnimationTests;
+			productReference = F32EDD481F6A663400B2F384 /* CAAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F32EDD521F6A663400B2F384 /* CAAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32EDD621F6A663500B2F384 /* Build configuration list for PBXNativeTarget "CAAnimationUITests" */;
+			buildPhases = (
+				F32EDD4F1F6A663400B2F384 /* Sources */,
+				F32EDD501F6A663400B2F384 /* Frameworks */,
+				F32EDD511F6A663400B2F384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32EDD551F6A663400B2F384 /* PBXTargetDependency */,
+			);
+			name = CAAnimationUITests;
+			productName = CAAnimationUITests;
+			productReference = F32EDD531F6A663400B2F384 /* CAAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32EDD271F6A663400B2F384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Marshal;
+				TargetAttributes = {
+					F32EDD2E1F6A663400B2F384 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F32EDD471F6A663400B2F384 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F32EDD2E1F6A663400B2F384;
+					};
+					F32EDD521F6A663400B2F384 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F32EDD2E1F6A663400B2F384;
+					};
+				};
+			};
+			buildConfigurationList = F32EDD2A1F6A663400B2F384 /* Build configuration list for PBXProject "CAAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = F32EDD261F6A663400B2F384;
+			productRefGroup = F32EDD301F6A663400B2F384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32EDD2E1F6A663400B2F384 /* CAAnimation */,
+				F32EDD471F6A663400B2F384 /* CAAnimationTests */,
+				F32EDD521F6A663400B2F384 /* CAAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32EDD2D1F6A663400B2F384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EDD421F6A663400B2F384 /* LaunchScreen.storyboard in Resources */,
+				F32EDD3F1F6A663400B2F384 /* Assets.xcassets in Resources */,
+				F32EDD3D1F6A663400B2F384 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EDD461F6A663400B2F384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EDD511F6A663400B2F384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32EDD2B1F6A663400B2F384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EDD3A1F6A663400B2F384 /* ViewController.m in Sources */,
+				F32EDD761F6AE7C000B2F384 /* UIViewOfCAKeyframeAnimation.m in Sources */,
+				F32EDD6C1F6A796900B2F384 /* UIViewOfCABasicAnimation.m in Sources */,
+				F32EDD701F6A8C9800B2F384 /* UIViewOFBasicAnimations.m in Sources */,
+				F32EDD371F6A663400B2F384 /* AppDelegate.m in Sources */,
+				F32EDD7C1F6AE83D00B2F384 /* UIViewOfCAAnimationGroup.m in Sources */,
+				F32EDD341F6A663400B2F384 /* main.m in Sources */,
+				F32EDD791F6AE7F500B2F384 /* UIViewOfCATransition.m in Sources */,
+				F32EDD731F6A96F400B2F384 /* UIViewOfCASpringAniamtion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EDD441F6A663400B2F384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EDD4D1F6A663400B2F384 /* CAAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32EDD4F1F6A663400B2F384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32EDD581F6A663500B2F384 /* CAAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32EDD4A1F6A663400B2F384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32EDD2E1F6A663400B2F384 /* CAAnimation */;
+			targetProxy = F32EDD491F6A663400B2F384 /* PBXContainerItemProxy */;
+		};
+		F32EDD551F6A663400B2F384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32EDD2E1F6A663400B2F384 /* CAAnimation */;
+			targetProxy = F32EDD541F6A663400B2F384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32EDD3B1F6A663400B2F384 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32EDD3C1F6A663400B2F384 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32EDD401F6A663400B2F384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32EDD411F6A663400B2F384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32EDD5A1F6A663500B2F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F32EDD5B1F6A663500B2F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32EDD5D1F6A663500B2F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.CAAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F32EDD5E1F6A663500B2F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.CAAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F32EDD601F6A663500B2F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.CAAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAAnimation.app/CAAnimation";
+			};
+			name = Debug;
+		};
+		F32EDD611F6A663500B2F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.CAAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAAnimation.app/CAAnimation";
+			};
+			name = Release;
+		};
+		F32EDD631F6A663500B2F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.CAAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAAnimation;
+			};
+			name = Debug;
+		};
+		F32EDD641F6A663500B2F384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.CAAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32EDD2A1F6A663400B2F384 /* Build configuration list for PBXProject "CAAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EDD5A1F6A663500B2F384 /* Debug */,
+				F32EDD5B1F6A663500B2F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32EDD5C1F6A663500B2F384 /* Build configuration list for PBXNativeTarget "CAAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EDD5D1F6A663500B2F384 /* Debug */,
+				F32EDD5E1F6A663500B2F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32EDD5F1F6A663500B2F384 /* Build configuration list for PBXNativeTarget "CAAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EDD601F6A663500B2F384 /* Debug */,
+				F32EDD611F6A663500B2F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32EDD621F6A663500B2F384 /* Build configuration list for PBXNativeTarget "CAAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32EDD631F6A663500B2F384 /* Debug */,
+				F32EDD641F6A663500B2F384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32EDD271F6A663400B2F384 /* Project object */;
+}

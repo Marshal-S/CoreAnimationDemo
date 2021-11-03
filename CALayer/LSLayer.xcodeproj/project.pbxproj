@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3D24F051F6B713600412C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24F041F6B713600412C53 /* main.m */; };
+		F3D24F081F6B713600412C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24F071F6B713600412C53 /* AppDelegate.m */; };
+		F3D24F101F6B713600412C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F0F1F6B713600412C53 /* Assets.xcassets */; };
+		F3D24F131F6B713600412C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F111F6B713600412C53 /* LaunchScreen.storyboard */; };
+		F3D24F1E1F6B713600412C53 /* LSLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24F1D1F6B713600412C53 /* LSLayerTests.m */; };
+		F3D24F291F6B713600412C53 /* LSLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24F281F6B713600412C53 /* LSLayerUITests.m */; };
+		F3D24F6C1F6B718400412C53 /* 0_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F371F6B718400412C53 /* 0_0.jpg */; };
+		F3D24F6D1F6B718400412C53 /* 0_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F381F6B718400412C53 /* 0_1.jpg */; };
+		F3D24F6E1F6B718400412C53 /* 0_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F391F6B718400412C53 /* 0_2.jpg */; };
+		F3D24F6F1F6B718400412C53 /* 0_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F3A1F6B718400412C53 /* 0_3.jpg */; };
+		F3D24F701F6B718400412C53 /* 0_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F3B1F6B718400412C53 /* 0_4.jpg */; };
+		F3D24F711F6B718400412C53 /* 0_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F3C1F6B718400412C53 /* 0_5.jpg */; };
+		F3D24F721F6B718400412C53 /* 1_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F3D1F6B718400412C53 /* 1_0.jpg */; };
+		F3D24F731F6B718400412C53 /* 1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F3E1F6B718400412C53 /* 1_1.jpg */; };
+		F3D24F741F6B718400412C53 /* 1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F3F1F6B718400412C53 /* 1_2.jpg */; };
+		F3D24F751F6B718400412C53 /* 1_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F401F6B718400412C53 /* 1_3.jpg */; };
+		F3D24F761F6B718400412C53 /* 1_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F411F6B718400412C53 /* 1_4.jpg */; };
+		F3D24F771F6B718400412C53 /* 1_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F421F6B718400412C53 /* 1_5.jpg */; };
+		F3D24F781F6B718400412C53 /* 2_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F431F6B718400412C53 /* 2_0.jpg */; };
+		F3D24F791F6B718400412C53 /* 2_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F441F6B718400412C53 /* 2_1.jpg */; };
+		F3D24F7A1F6B718400412C53 /* 2_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F451F6B718400412C53 /* 2_2.jpg */; };
+		F3D24F7B1F6B718400412C53 /* 2_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F461F6B718400412C53 /* 2_3.jpg */; };
+		F3D24F7C1F6B718400412C53 /* 2_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F471F6B718400412C53 /* 2_4.jpg */; };
+		F3D24F7D1F6B718400412C53 /* 2_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F481F6B718400412C53 /* 2_5.jpg */; };
+		F3D24F7E1F6B718400412C53 /* 3_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F491F6B718400412C53 /* 3_0.jpg */; };
+		F3D24F7F1F6B718400412C53 /* 3_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F4A1F6B718400412C53 /* 3_1.jpg */; };
+		F3D24F801F6B718400412C53 /* 3_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F4B1F6B718400412C53 /* 3_2.jpg */; };
+		F3D24F811F6B718400412C53 /* 3_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F4C1F6B718400412C53 /* 3_3.jpg */; };
+		F3D24F821F6B718400412C53 /* 3_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F4D1F6B718400412C53 /* 3_4.jpg */; };
+		F3D24F831F6B718400412C53 /* 3_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F4E1F6B718400412C53 /* 3_5.jpg */; };
+		F3D24F841F6B718400412C53 /* 4-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F4F1F6B718400412C53 /* 4-5.jpg */; };
+		F3D24F851F6B718400412C53 /* 4_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F501F6B718400412C53 /* 4_0.jpg */; };
+		F3D24F861F6B718400412C53 /* 4_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F511F6B718400412C53 /* 4_1.jpg */; };
+		F3D24F871F6B718400412C53 /* 4_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F521F6B718400412C53 /* 4_2.jpg */; };
+		F3D24F881F6B718400412C53 /* 4_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F531F6B718400412C53 /* 4_3.jpg */; };
+		F3D24F891F6B718400412C53 /* 4_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F541F6B718400412C53 /* 4_4.jpg */; };
+		F3D24F8A1F6B718400412C53 /* 5_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F551F6B718400412C53 /* 5_0.jpg */; };
+		F3D24F8B1F6B718400412C53 /* 5_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F561F6B718400412C53 /* 5_1.jpg */; };
+		F3D24F8C1F6B718400412C53 /* 5_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F571F6B718400412C53 /* 5_2.jpg */; };
+		F3D24F8D1F6B718400412C53 /* 5_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F581F6B718400412C53 /* 5_3.jpg */; };
+		F3D24F8E1F6B718400412C53 /* 5_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F591F6B718400412C53 /* 5_4.jpg */; };
+		F3D24F8F1F6B718400412C53 /* 5_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24F5A1F6B718400412C53 /* 5_5.jpg */; };
+		F3D24FB31F6B720B00412C53 /* timg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D24FB21F6B720B00412C53 /* timg4.jpg */; };
+		F3D24FB51F6B722100412C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D24FB41F6B722100412C53 /* Main.storyboard */; };
+		F3D24FBB1F6B724600412C53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FBA1F6B724600412C53 /* ViewController.m */; };
+		F3D24FD01F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FC01F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.m */; };
+		F3D24FD11F6B72B800412C53 /* UIViewOfCAGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FC21F6B72B800412C53 /* UIViewOfCAGradientLayer.m */; };
+		F3D24FD21F6B72B800412C53 /* UIViewOfCAPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FC41F6B72B800412C53 /* UIViewOfCAPlayerLayer.m */; };
+		F3D24FD31F6B72B800412C53 /* UIViewOfCAReplicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FC61F6B72B800412C53 /* UIViewOfCAReplicatorLayer.m */; };
+		F3D24FD41F6B72B800412C53 /* UIViewOfCAScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FC81F6B72B800412C53 /* UIViewOfCAScrollLayer.m */; };
+		F3D24FD51F6B72B800412C53 /* UIViewOfCAShaperLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FCA1F6B72B800412C53 /* UIViewOfCAShaperLayer.m */; };
+		F3D24FD61F6B72B800412C53 /* UIViewOfCATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FCD1F6B72B800412C53 /* UIViewOfCATransformLayer.m */; };
+		F3D24FD71F6B72B800412C53 /* UIViewOfEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FCF1F6B72B800412C53 /* UIViewOfEmitterLayer.m */; };
+		F3D24FD91F6B72FF00412C53 /* UIViewOfCATextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D24FD81F6B72FF00412C53 /* UIViewOfCATextLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3D24F1A1F6B713600412C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D24EF81F6B713600412C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D24EFF1F6B713600412C53;
+			remoteInfo = LSLayer;
+		};
+		F3D24F251F6B713600412C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3D24EF81F6B713600412C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3D24EFF1F6B713600412C53;
+			remoteInfo = LSLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3D24F001F6B713600412C53 /* LSLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D24F041F6B713600412C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3D24F061F6B713600412C53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3D24F071F6B713600412C53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3D24F0F1F6B713600412C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D24F121F6B713600412C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D24F141F6B713600412C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D24F191F6B713600412C53 /* LSLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D24F1D1F6B713600412C53 /* LSLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLayerTests.m; sourceTree = "<group>"; };
+		F3D24F1F1F6B713600412C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D24F241F6B713600412C53 /* LSLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D24F281F6B713600412C53 /* LSLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLayerUITests.m; sourceTree = "<group>"; };
+		F3D24F2A1F6B713600412C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D24F371F6B718400412C53 /* 0_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_0.jpg; sourceTree = "<group>"; };
+		F3D24F381F6B718400412C53 /* 0_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_1.jpg; sourceTree = "<group>"; };
+		F3D24F391F6B718400412C53 /* 0_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_2.jpg; sourceTree = "<group>"; };
+		F3D24F3A1F6B718400412C53 /* 0_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_3.jpg; sourceTree = "<group>"; };
+		F3D24F3B1F6B718400412C53 /* 0_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_4.jpg; sourceTree = "<group>"; };
+		F3D24F3C1F6B718400412C53 /* 0_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_5.jpg; sourceTree = "<group>"; };
+		F3D24F3D1F6B718400412C53 /* 1_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_0.jpg; sourceTree = "<group>"; };
+		F3D24F3E1F6B718400412C53 /* 1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_1.jpg; sourceTree = "<group>"; };
+		F3D24F3F1F6B718400412C53 /* 1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_2.jpg; sourceTree = "<group>"; };
+		F3D24F401F6B718400412C53 /* 1_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_3.jpg; sourceTree = "<group>"; };
+		F3D24F411F6B718400412C53 /* 1_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_4.jpg; sourceTree = "<group>"; };
+		F3D24F421F6B718400412C53 /* 1_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_5.jpg; sourceTree = "<group>"; };
+		F3D24F431F6B718400412C53 /* 2_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_0.jpg; sourceTree = "<group>"; };
+		F3D24F441F6B718400412C53 /* 2_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_1.jpg; sourceTree = "<group>"; };
+		F3D24F451F6B718400412C53 /* 2_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_2.jpg; sourceTree = "<group>"; };
+		F3D24F461F6B718400412C53 /* 2_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_3.jpg; sourceTree = "<group>"; };
+		F3D24F471F6B718400412C53 /* 2_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_4.jpg; sourceTree = "<group>"; };
+		F3D24F481F6B718400412C53 /* 2_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_5.jpg; sourceTree = "<group>"; };
+		F3D24F491F6B718400412C53 /* 3_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_0.jpg; sourceTree = "<group>"; };
+		F3D24F4A1F6B718400412C53 /* 3_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_1.jpg; sourceTree = "<group>"; };
+		F3D24F4B1F6B718400412C53 /* 3_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_2.jpg; sourceTree = "<group>"; };
+		F3D24F4C1F6B718400412C53 /* 3_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_3.jpg; sourceTree = "<group>"; };
+		F3D24F4D1F6B718400412C53 /* 3_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_4.jpg; sourceTree = "<group>"; };
+		F3D24F4E1F6B718400412C53 /* 3_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_5.jpg; sourceTree = "<group>"; };
+		F3D24F4F1F6B718400412C53 /* 4-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-5.jpg"; sourceTree = "<group>"; };
+		F3D24F501F6B718400412C53 /* 4_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_0.jpg; sourceTree = "<group>"; };
+		F3D24F511F6B718400412C53 /* 4_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_1.jpg; sourceTree = "<group>"; };
+		F3D24F521F6B718400412C53 /* 4_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_2.jpg; sourceTree = "<group>"; };
+		F3D24F531F6B718400412C53 /* 4_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_3.jpg; sourceTree = "<group>"; };
+		F3D24F541F6B718400412C53 /* 4_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4_4.jpg; sourceTree = "<group>"; };
+		F3D24F551F6B718400412C53 /* 5_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_0.jpg; sourceTree = "<group>"; };
+		F3D24F561F6B718400412C53 /* 5_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_1.jpg; sourceTree = "<group>"; };
+		F3D24F571F6B718400412C53 /* 5_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_2.jpg; sourceTree = "<group>"; };
+		F3D24F581F6B718400412C53 /* 5_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_3.jpg; sourceTree = "<group>"; };
+		F3D24F591F6B718400412C53 /* 5_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_4.jpg; sourceTree = "<group>"; };
+		F3D24F5A1F6B718400412C53 /* 5_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5_5.jpg; sourceTree = "<group>"; };
+		F3D24FB21F6B720B00412C53 /* timg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timg4.jpg; path = timgs/timg4.jpg; sourceTree = "<group>"; };
+		F3D24FB41F6B722100412C53 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F3D24FB91F6B724600412C53 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3D24FBA1F6B724600412C53 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3D24FBE1F6B72B800412C53 /* LSLayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLayerModel.h; sourceTree = "<group>"; };
+		F3D24FBF1F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewCATiledLayer.h"; sourceTree = "<group>"; };
+		F3D24FC01F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewCATiledLayer.m"; sourceTree = "<group>"; };
+		F3D24FC11F6B72B800412C53 /* UIViewOfCAGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAGradientLayer.h; sourceTree = "<group>"; };
+		F3D24FC21F6B72B800412C53 /* UIViewOfCAGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAGradientLayer.m; sourceTree = "<group>"; };
+		F3D24FC31F6B72B800412C53 /* UIViewOfCAPlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAPlayerLayer.h; sourceTree = "<group>"; };
+		F3D24FC41F6B72B800412C53 /* UIViewOfCAPlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAPlayerLayer.m; sourceTree = "<group>"; };
+		F3D24FC51F6B72B800412C53 /* UIViewOfCAReplicatorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAReplicatorLayer.h; sourceTree = "<group>"; };
+		F3D24FC61F6B72B800412C53 /* UIViewOfCAReplicatorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAReplicatorLayer.m; sourceTree = "<group>"; };
+		F3D24FC71F6B72B800412C53 /* UIViewOfCAScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAScrollLayer.h; sourceTree = "<group>"; };
+		F3D24FC81F6B72B800412C53 /* UIViewOfCAScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAScrollLayer.m; sourceTree = "<group>"; };
+		F3D24FC91F6B72B800412C53 /* UIViewOfCAShaperLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCAShaperLayer.h; sourceTree = "<group>"; };
+		F3D24FCA1F6B72B800412C53 /* UIViewOfCAShaperLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCAShaperLayer.m; sourceTree = "<group>"; };
+		F3D24FCB1F6B72B800412C53 /* UIViewOfCATextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCATextLayer.h; sourceTree = "<group>"; };
+		F3D24FCC1F6B72B800412C53 /* UIViewOfCATransformLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfCATransformLayer.h; sourceTree = "<group>"; };
+		F3D24FCD1F6B72B800412C53 /* UIViewOfCATransformLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCATransformLayer.m; sourceTree = "<group>"; };
+		F3D24FCE1F6B72B800412C53 /* UIViewOfEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewOfEmitterLayer.h; sourceTree = "<group>"; };
+		F3D24FCF1F6B72B800412C53 /* UIViewOfEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfEmitterLayer.m; sourceTree = "<group>"; };
+		F3D24FD81F6B72FF00412C53 /* UIViewOfCATextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewOfCATextLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D24EFD1F6B713600412C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D24F161F6B713600412C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D24F211F6B713600412C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3D24EF71F6B713600412C53 = {
+			isa = PBXGroup;
+			children = (
+				F3D24F021F6B713600412C53 /* LSLayer */,
+				F3D24F1C1F6B713600412C53 /* LSLayerTests */,
+				F3D24F271F6B713600412C53 /* LSLayerUITests */,
+				F3D24F011F6B713600412C53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D24F011F6B713600412C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24F001F6B713600412C53 /* LSLayer.app */,
+				F3D24F191F6B713600412C53 /* LSLayerTests.xctest */,
+				F3D24F241F6B713600412C53 /* LSLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D24F021F6B713600412C53 /* LSLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24FB21F6B720B00412C53 /* timg4.jpg */,
+				F3D24F361F6B718400412C53 /* timgs */,
+				F3D24FBD1F6B72B800412C53 /* Layers */,
+				F3D24FB91F6B724600412C53 /* ViewController.h */,
+				F3D24FBA1F6B724600412C53 /* ViewController.m */,
+				F3D24F061F6B713600412C53 /* AppDelegate.h */,
+				F3D24F071F6B713600412C53 /* AppDelegate.m */,
+				F3D24FB41F6B722100412C53 /* Main.storyboard */,
+				F3D24F0F1F6B713600412C53 /* Assets.xcassets */,
+				F3D24F111F6B713600412C53 /* LaunchScreen.storyboard */,
+				F3D24F141F6B713600412C53 /* Info.plist */,
+				F3D24F031F6B713600412C53 /* Supporting Files */,
+			);
+			path = LSLayer;
+			sourceTree = "<group>";
+		};
+		F3D24F031F6B713600412C53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24F041F6B713600412C53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3D24F1C1F6B713600412C53 /* LSLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24F1D1F6B713600412C53 /* LSLayerTests.m */,
+				F3D24F1F1F6B713600412C53 /* Info.plist */,
+			);
+			path = LSLayerTests;
+			sourceTree = "<group>";
+		};
+		F3D24F271F6B713600412C53 /* LSLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24F281F6B713600412C53 /* LSLayerUITests.m */,
+				F3D24F2A1F6B713600412C53 /* Info.plist */,
+			);
+			path = LSLayerUITests;
+			sourceTree = "<group>";
+		};
+		F3D24F361F6B718400412C53 /* timgs */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24F371F6B718400412C53 /* 0_0.jpg */,
+				F3D24F381F6B718400412C53 /* 0_1.jpg */,
+				F3D24F391F6B718400412C53 /* 0_2.jpg */,
+				F3D24F3A1F6B718400412C53 /* 0_3.jpg */,
+				F3D24F3B1F6B718400412C53 /* 0_4.jpg */,
+				F3D24F3C1F6B718400412C53 /* 0_5.jpg */,
+				F3D24F3D1F6B718400412C53 /* 1_0.jpg */,
+				F3D24F3E1F6B718400412C53 /* 1_1.jpg */,
+				F3D24F3F1F6B718400412C53 /* 1_2.jpg */,
+				F3D24F401F6B718400412C53 /* 1_3.jpg */,
+				F3D24F411F6B718400412C53 /* 1_4.jpg */,
+				F3D24F421F6B718400412C53 /* 1_5.jpg */,
+				F3D24F431F6B718400412C53 /* 2_0.jpg */,
+				F3D24F441F6B718400412C53 /* 2_1.jpg */,
+				F3D24F451F6B718400412C53 /* 2_2.jpg */,
+				F3D24F461F6B718400412C53 /* 2_3.jpg */,
+				F3D24F471F6B718400412C53 /* 2_4.jpg */,
+				F3D24F481F6B718400412C53 /* 2_5.jpg */,
+				F3D24F491F6B718400412C53 /* 3_0.jpg */,
+				F3D24F4A1F6B718400412C53 /* 3_1.jpg */,
+				F3D24F4B1F6B718400412C53 /* 3_2.jpg */,
+				F3D24F4C1F6B718400412C53 /* 3_3.jpg */,
+				F3D24F4D1F6B718400412C53 /* 3_4.jpg */,
+				F3D24F4E1F6B718400412C53 /* 3_5.jpg */,
+				F3D24F4F1F6B718400412C53 /* 4-5.jpg */,
+				F3D24F501F6B718400412C53 /* 4_0.jpg */,
+				F3D24F511F6B718400412C53 /* 4_1.jpg */,
+				F3D24F521F6B718400412C53 /* 4_2.jpg */,
+				F3D24F531F6B718400412C53 /* 4_3.jpg */,
+				F3D24F541F6B718400412C53 /* 4_4.jpg */,
+				F3D24F551F6B718400412C53 /* 5_0.jpg */,
+				F3D24F561F6B718400412C53 /* 5_1.jpg */,
+				F3D24F571F6B718400412C53 /* 5_2.jpg */,
+				F3D24F581F6B718400412C53 /* 5_3.jpg */,
+				F3D24F591F6B718400412C53 /* 5_4.jpg */,
+				F3D24F5A1F6B718400412C53 /* 5_5.jpg */,
+			);
+			path = timgs;
+			sourceTree = "<group>";
+		};
+		F3D24FBD1F6B72B800412C53 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				F3D24FBE1F6B72B800412C53 /* LSLayerModel.h */,
+				F3D24FBF1F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.h */,
+				F3D24FC01F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.m */,
+				F3D24FC11F6B72B800412C53 /* UIViewOfCAGradientLayer.h */,
+				F3D24FC21F6B72B800412C53 /* UIViewOfCAGradientLayer.m */,
+				F3D24FC51F6B72B800412C53 /* UIViewOfCAReplicatorLayer.h */,
+				F3D24FC61F6B72B800412C53 /* UIViewOfCAReplicatorLayer.m */,
+				F3D24FC71F6B72B800412C53 /* UIViewOfCAScrollLayer.h */,
+				F3D24FC81F6B72B800412C53 /* UIViewOfCAScrollLayer.m */,
+				F3D24FC91F6B72B800412C53 /* UIViewOfCAShaperLayer.h */,
+				F3D24FCA1F6B72B800412C53 /* UIViewOfCAShaperLayer.m */,
+				F3D24FCB1F6B72B800412C53 /* UIViewOfCATextLayer.h */,
+				F3D24FD81F6B72FF00412C53 /* UIViewOfCATextLayer.m */,
+				F3D24FCC1F6B72B800412C53 /* UIViewOfCATransformLayer.h */,
+				F3D24FCD1F6B72B800412C53 /* UIViewOfCATransformLayer.m */,
+				F3D24FCE1F6B72B800412C53 /* UIViewOfEmitterLayer.h */,
+				F3D24FCF1F6B72B800412C53 /* UIViewOfEmitterLayer.m */,
+				F3D24FC31F6B72B800412C53 /* UIViewOfCAPlayerLayer.h */,
+				F3D24FC41F6B72B800412C53 /* UIViewOfCAPlayerLayer.m */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D24EFF1F6B713600412C53 /* LSLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D24F2D1F6B713600412C53 /* Build configuration list for PBXNativeTarget "LSLayer" */;
+			buildPhases = (
+				F3D24EFC1F6B713600412C53 /* Sources */,
+				F3D24EFD1F6B713600412C53 /* Frameworks */,
+				F3D24EFE1F6B713600412C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSLayer;
+			productName = LSLayer;
+			productReference = F3D24F001F6B713600412C53 /* LSLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3D24F181F6B713600412C53 /* LSLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D24F301F6B713600412C53 /* Build configuration list for PBXNativeTarget "LSLayerTests" */;
+			buildPhases = (
+				F3D24F151F6B713600412C53 /* Sources */,
+				F3D24F161F6B713600412C53 /* Frameworks */,
+				F3D24F171F6B713600412C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D24F1B1F6B713600412C53 /* PBXTargetDependency */,
+			);
+			name = LSLayerTests;
+			productName = LSLayerTests;
+			productReference = F3D24F191F6B713600412C53 /* LSLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3D24F231F6B713600412C53 /* LSLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D24F331F6B713600412C53 /* Build configuration list for PBXNativeTarget "LSLayerUITests" */;
+			buildPhases = (
+				F3D24F201F6B713600412C53 /* Sources */,
+				F3D24F211F6B713600412C53 /* Frameworks */,
+				F3D24F221F6B713600412C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3D24F261F6B713600412C53 /* PBXTargetDependency */,
+			);
+			name = LSLayerUITests;
+			productName = LSLayerUITests;
+			productReference = F3D24F241F6B713600412C53 /* LSLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D24EF81F6B713600412C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Marshal;
+				TargetAttributes = {
+					F3D24EFF1F6B713600412C53 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+					F3D24F181F6B713600412C53 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3D24EFF1F6B713600412C53;
+					};
+					F3D24F231F6B713600412C53 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3D24EFF1F6B713600412C53;
+					};
+				};
+			};
+			buildConfigurationList = F3D24EFB1F6B713600412C53 /* Build configuration list for PBXProject "LSLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D24EF71F6B713600412C53;
+			productRefGroup = F3D24F011F6B713600412C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D24EFF1F6B713600412C53 /* LSLayer */,
+				F3D24F181F6B713600412C53 /* LSLayerTests */,
+				F3D24F231F6B713600412C53 /* LSLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D24EFE1F6B713600412C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D24F7B1F6B718400412C53 /* 2_3.jpg in Resources */,
+				F3D24F8F1F6B718400412C53 /* 5_5.jpg in Resources */,
+				F3D24F8B1F6B718400412C53 /* 5_1.jpg in Resources */,
+				F3D24F6F1F6B718400412C53 /* 0_3.jpg in Resources */,
+				F3D24F731F6B718400412C53 /* 1_1.jpg in Resources */,
+				F3D24F871F6B718400412C53 /* 4_2.jpg in Resources */,
+				F3D24F811F6B718400412C53 /* 3_3.jpg in Resources */,
+				F3D24F741F6B718400412C53 /* 1_2.jpg in Resources */,
+				F3D24F8E1F6B718400412C53 /* 5_4.jpg in Resources */,
+				F3D24F851F6B718400412C53 /* 4_0.jpg in Resources */,
+				F3D24F781F6B718400412C53 /* 2_0.jpg in Resources */,
+				F3D24FB51F6B722100412C53 /* Main.storyboard in Resources */,
+				F3D24F8D1F6B718400412C53 /* 5_3.jpg in Resources */,
+				F3D24F7C1F6B718400412C53 /* 2_4.jpg in Resources */,
+				F3D24F6C1F6B718400412C53 /* 0_0.jpg in Resources */,
+				F3D24F711F6B718400412C53 /* 0_5.jpg in Resources */,
+				F3D24F861F6B718400412C53 /* 4_1.jpg in Resources */,
+				F3D24F841F6B718400412C53 /* 4-5.jpg in Resources */,
+				F3D24F7D1F6B718400412C53 /* 2_5.jpg in Resources */,
+				F3D24F881F6B718400412C53 /* 4_3.jpg in Resources */,
+				F3D24F7F1F6B718400412C53 /* 3_1.jpg in Resources */,
+				F3D24FB31F6B720B00412C53 /* timg4.jpg in Resources */,
+				F3D24F7E1F6B718400412C53 /* 3_0.jpg in Resources */,
+				F3D24F771F6B718400412C53 /* 1_5.jpg in Resources */,
+				F3D24F131F6B713600412C53 /* LaunchScreen.storyboard in Resources */,
+				F3D24F791F6B718400412C53 /* 2_1.jpg in Resources */,
+				F3D24F7A1F6B718400412C53 /* 2_2.jpg in Resources */,
+				F3D24F701F6B718400412C53 /* 0_4.jpg in Resources */,
+				F3D24F6D1F6B718400412C53 /* 0_1.jpg in Resources */,
+				F3D24F721F6B718400412C53 /* 1_0.jpg in Resources */,
+				F3D24F831F6B718400412C53 /* 3_5.jpg in Resources */,
+				F3D24F801F6B718400412C53 /* 3_2.jpg in Resources */,
+				F3D24F821F6B718400412C53 /* 3_4.jpg in Resources */,
+				F3D24F8A1F6B718400412C53 /* 5_0.jpg in Resources */,
+				F3D24F751F6B718400412C53 /* 1_3.jpg in Resources */,
+				F3D24F101F6B713600412C53 /* Assets.xcassets in Resources */,
+				F3D24F891F6B718400412C53 /* 4_4.jpg in Resources */,
+				F3D24F761F6B718400412C53 /* 1_4.jpg in Resources */,
+				F3D24F6E1F6B718400412C53 /* 0_2.jpg in Resources */,
+				F3D24F8C1F6B718400412C53 /* 5_2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D24F171F6B713600412C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D24F221F6B713600412C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D24EFC1F6B713600412C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D24FD41F6B72B800412C53 /* UIViewOfCAScrollLayer.m in Sources */,
+				F3D24FD11F6B72B800412C53 /* UIViewOfCAGradientLayer.m in Sources */,
+				F3D24FD01F6B72B800412C53 /* UIViewController+UIViewCATiledLayer.m in Sources */,
+				F3D24FD31F6B72B800412C53 /* UIViewOfCAReplicatorLayer.m in Sources */,
+				F3D24FD91F6B72FF00412C53 /* UIViewOfCATextLayer.m in Sources */,
+				F3D24FD21F6B72B800412C53 /* UIViewOfCAPlayerLayer.m in Sources */,
+				F3D24FD51F6B72B800412C53 /* UIViewOfCAShaperLayer.m in Sources */,
+				F3D24FD61F6B72B800412C53 /* UIViewOfCATransformLayer.m in Sources */,
+				F3D24FBB1F6B724600412C53 /* ViewController.m in Sources */,
+				F3D24FD71F6B72B800412C53 /* UIViewOfEmitterLayer.m in Sources */,
+				F3D24F081F6B713600412C53 /* AppDelegate.m in Sources */,
+				F3D24F051F6B713600412C53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D24F151F6B713600412C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D24F1E1F6B713600412C53 /* LSLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D24F201F6B713600412C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D24F291F6B713600412C53 /* LSLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3D24F1B1F6B713600412C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D24EFF1F6B713600412C53 /* LSLayer */;
+			targetProxy = F3D24F1A1F6B713600412C53 /* PBXContainerItemProxy */;
+		};
+		F3D24F261F6B713600412C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3D24EFF1F6B713600412C53 /* LSLayer */;
+			targetProxy = F3D24F251F6B713600412C53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3D24F111F6B713600412C53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D24F121F6B713600412C53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D24F2B1F6B713600412C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3D24F2C1F6B713600412C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D24F2E1F6B713600412C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LSLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.LSLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3D24F2F1F6B713600412C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LSLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.LSLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F3D24F311F6B713600412C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.LSLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSLayer.app/LSLayer";
+			};
+			name = Debug;
+		};
+		F3D24F321F6B713600412C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.LSLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSLayer.app/LSLayer";
+			};
+			name = Release;
+		};
+		F3D24F341F6B713600412C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.LSLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSLayer;
+			};
+			name = Debug;
+		};
+		F3D24F351F6B713600412C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.shuai.LSLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSLayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D24EFB1F6B713600412C53 /* Build configuration list for PBXProject "LSLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D24F2B1F6B713600412C53 /* Debug */,
+				F3D24F2C1F6B713600412C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D24F2D1F6B713600412C53 /* Build configuration list for PBXNativeTarget "LSLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D24F2E1F6B713600412C53 /* Debug */,
+				F3D24F2F1F6B713600412C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D24F301F6B713600412C53 /* Build configuration list for PBXNativeTarget "LSLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D24F311F6B713600412C53 /* Debug */,
+				F3D24F321F6B713600412C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D24F331F6B713600412C53 /* Build configuration list for PBXNativeTarget "LSLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D24F341F6B713600412C53 /* Debug */,
+				F3D24F351F6B713600412C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D24EF81F6B713600412C53 /* Project object */;
+}
